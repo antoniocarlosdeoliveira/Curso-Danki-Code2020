@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato';
+	
+}
+
+.center{
+	max-width: 1100px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+
+.clear{
+	clear: both;
+}
+
+header{
+	background: #16376B;
+	padding: 50px 0 60px 0;
+}
+div.logo{
+	float: left;
+	color: white;
+}
+.logo h2{
+	font-size: 29px;
+	font-weight: normal;     
+}
+form.form-login{
+	float: right;
+}
+
+.form-login .form-element{
+	display: inline-block;
+}
+.form-element p{
+	color: white;
+	font-size: 14px;
+}
+.form-element input[type=email],
+.form-element input[type=password]{
+	margin-top: 4px;
+}

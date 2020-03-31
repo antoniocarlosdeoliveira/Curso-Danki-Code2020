@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Aula 09</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet"   type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend class="grupo">
+                    Meu grupo do formulário
+                </legend>
+                <div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+                <div><input type="text" name="nome" placeholder="Digite o seu e-mail"></div>
+                <div>
+                    <select name="lista">
+                        <option disabled selected>Qual a sua idade?</option>
+                        <option value="20">20</option>
+                        <option value="25">25+</option>
+                        <option value="40">40+</option>
+                    </select>
+                </div>
+                <h2>Qua a sua cidade?</h2>
+                <div class="input">
+                <div>
+                        <input type="radio" name="cidade" value="Florianópolis"><span>Florianópolis</span>
+                </div>
+                
+                <div>
+                        <input type="radio" name="cidade" value="São Paulo"><span>São Paulo</span>
+                </div>
+                
+                <div>
+                        <input type="radio" name="cidade" value="Rio de janeiro"><span>Rio de janeiro</span>
+                </div>
+                </div>
+                
+                <h2>O que você gosta de comer?</h2>
+                <div class="input">
+                <div>
+                        <input type="checkbox" name="cidade[]" value="Fruta"><span>Fruta</span>
+                </div>
+                
+                <div>
+                        <input type="checkbox" name="cidade[]" value="Fast Food"><span>Fast Food</span>
+                </div>
+                
+                <div>
+                        <input type="checkbox" name="cidade[]" value="Salada"><span>Salada</span>
+                </div>
+                </div>
+                    <div>
+                        <textarea name="observacao" placeholder="Possui alguma observação?"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="ocao" value="Enviar!">
+                    </div>
+            </fieldset>
+        </form>
+    </body>
+</html>

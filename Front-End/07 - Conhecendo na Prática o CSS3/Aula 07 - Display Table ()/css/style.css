@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Parte 1 - Apredendo a utilizar o border-radius + responsivo */
+
+
+p{
+    width: 100px;
+    background-color: gray;
+    white-space: pre-line;
+}
+

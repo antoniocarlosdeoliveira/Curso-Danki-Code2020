@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+html,body{
+	height: 100%;
+}
+
+.text[type=text]{
+	background-color: green;
+}
+
+input[type=submit]{
+	background-color: blue;
+}
+
+/*
+Tem que ser igual!
+a[href="http://www.google.com"]{
+	background-color: yellow;
+}
+
+[href="http://www.google.com"]{
+	background-color: red;
+}
+*/
+/*
+Procure entre os espaços do atributo.
+a[attr~="google"]{
+	background-color: blue;
+} 
+*/
+
+/*
+Ache a palavra google em qualquer lugar
+a[attr*="google"]{
+	background-color: blue;
+}
+*/
+
+/*
+Quando começamos com a palavra google seguido por um acento.s
+a[attr|="google"]{
+	background-color: yellow;
+}
+*/
+
+/*
+Quando começamos com a palavra
+a[attr^="goo"]{
+	background-color: red;
+}
+*/
+
+/*
+Quando terminando com a palavra
+a[attr$="google"]{
+	background-color: yellow;
+}*/

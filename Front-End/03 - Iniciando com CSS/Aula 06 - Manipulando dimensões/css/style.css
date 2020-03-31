@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*
+Estilo para o conteúdo do nosso site
+*/
+
+html,body{
+	height: 100%;
+}
+
+.artigo{
+	width: 100%;
+	height: auto;
+	background-color: rgb(200,200,200);
+	text-align: center;
+}
+
+.artigo h1{
+	color: rgb(32, 51, 227);
+	font-size: 23px;
+	font-style: normal;
+	font-weight: normal;
+	/*font-variant: small-caps;*/
+}
+.artigo > p{
+	color: #b4b4b4;
+	text-align: left; 
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;
+	margin-top: 12px;
+}

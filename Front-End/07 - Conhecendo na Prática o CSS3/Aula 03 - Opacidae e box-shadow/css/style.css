@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div.box{
+    text-align: center;
+}
+
+div.box img{
+    width: 40%;
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    bbox-shadow: 10px 10px 30px 5px rgb(200,200,200);
+}
+
+@keyframes animacao{
+    0%{
+        box-shadow: 10px 10px 30px 5px rgb(200,200,200);
+    }
+
+    50%{
+        box-shadow: 30px 20px 15px 5px rgb(200,200,200);
+    }
+
+    100%{
+        box-shadow: 10px 10px 30px 5px rgb(200,200,200);
+    }
+}
